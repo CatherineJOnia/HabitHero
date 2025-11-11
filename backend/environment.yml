@@ -1,0 +1,14 @@
+name: habit-hero
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - fastapi
+  - uvicorn
+  - sqlalchemy
+  - pydantic
+  - pip
+  - pip:
+    - psycopg2-binary
+  
+  
